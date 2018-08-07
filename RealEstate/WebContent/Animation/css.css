@@ -1,0 +1,129 @@
+body{
+	background: #666;
+}
+.container{
+	width: 810px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.containerBig{
+
+	height: 540px;
+	
+	width: auto;
+	background-image: url('img/7dbd7b0f4a7bd9ef0c88bc02ee2af820.jpg');
+	background-size: 100% 100%;
+	padding: 40px;
+	overflow: hidden;
+	position: relative;
+
+}
+.cloud1{
+	position: absolute;
+	top: 75px;
+	opacity: 1;
+	animation:cloud1 15s infinite;
+}
+.cloud2{
+	position: absolute;
+	top: 120px; left: 1000px;
+	animation:cloud2 25s infinite;
+}
+.cloud3{
+	position: absolute;
+	top: 300px; left: 1000px;
+	animation:cloud3 15s infinite;
+}
+.cloud4{
+	position: absolute;
+	top: 250px; left:1300px;
+	animation:cloud4 12s infinite;
+}
+.cloud5{
+	position: absolute;
+	top: 150px; left:200px;
+	animation:cloud5 12s infinite;
+}
+@keyframes cloud1{
+	0%{top: 100px; left: -300px;}
+	50%{opacity: 0.5;top: 100px; left: 1500px;}
+	100%{top:100px; left: -300px;}
+}
+@keyframes cloud2{
+	0%{top: 75px; left: 1500px;}
+	50%{top: 75px; left: -300px; opacity: 0.8;}
+	100%{top: 75px; left: 1500px;}
+}
+@keyframes cloud3{
+	0%{top: 300px; left: 1000px;}
+	50%{top: 300px; left: -100px; opacity: 0.5;}
+	100%{top: 300px; left: 1000px;}
+}
+@keyframes cloud4{
+	0%{top: 250px; left: 1300px;}
+	50%{top: 250px; left: 800px; opacity: 0.5;}
+	100%{top: 250px; left: 1300px;}
+}
+@keyframes cloud5{
+	0%{top: 150px; left: 300px;}
+	50%{top: 150px; left: -200px; opacity: 0.5;}
+	100%{top: 150px; left: 300px;}
+}
+.animate3{
+	position: absolute;
+	top: 75px;
+	opacity: 1;
+	animation:animate3 5s infinite;
+}
+@keyframes animate3{
+	0%{top: 150px; left: -500px;}
+	15%{top: 0px;}
+	25%{top: 20px;}
+	50%{top: 300px;}
+	100%{top:150px;left: 1200px;}
+}
+.animate2{
+	position: absolute;
+	top: 75px;
+	opacity: 1;
+	animation:animate2 5s infinite;
+}
+@keyframes animate2{
+	0%{top: 150px; left: -500px;}
+	15%{top: 300px;}
+	30%{top: 150px;}
+	45%{top: 0px;}
+	55%{top: 50px;}
+	100%{top:20px;left: 1200px;}
+}
+.animate{
+	position: absolute;
+	top: 75px;
+	opacity: 1;
+	animation:animate 5s infinite;
+}
+@keyframes animate{
+	0%{top: 150px; right:-500px;}
+	15%{top: 20px;}
+	30%{top: 300px;}
+	50%{top: 0px;}
+	100%{top:150px; right:1200px;}
+}
+.img1{
+	width: 200px;
+	height: 200px;
+}
+.animate4{
+	position: absolute;
+	top: 400px;
+	opacity: 1;
+	animation:animate4 7s infinite;
+}
+@keyframes animate4{
+	0%{top: 400px; left:-500px;}
+	15%{top: 50px;}
+	30%{top: 200px;}
+	40%{top: 0px;}
+	100%{top:0px; left:1200px;}
+}
